@@ -2,7 +2,20 @@
 
 ImageMagick için Görsel bir arayüz yazılımı
 
-
+<b>Not : </b> Sisteminizde <b>imagemagick</b> yazılımının kurulu olması gerekir.
+Kurulu değil ise; 
+<br><br>
+wget http://www.imagemagick.org/download/ImageMagick.tar.gz<br>
+tar xvzf ImageMagick.tar.gz<br>
+cd ImageMagick-6.9.1-8<br>
+./configure<br>
+make<br>
+sudo make install<br>
+sudo ldconfig /usr/local/lib<br>
+/usr/local/bin/convert logo: logo.gif<br>
+make check<br>
+<br>
+****************************************************************<br>
 sudo chmod +x imagemagick.sh <br>
 ./imagemagick.sh
 
